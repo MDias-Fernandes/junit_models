@@ -1,0 +1,21 @@
+>>> 6 Passos básicos para criar uma classe de testes com o DDT
+
+1. Entendimento dos dados que serão usados
+	- Dados de entrada
+	- Dados de saída
+	
+2. Criação dos atributos dos dados
+	- Globais, no início da classe de teste
+	
+3. Criação do construtor
+	- Script da interpretação dos dados que serão utilizados nos scripts
+
+4. Criação do Data Driven Test
+	- método estático data() que deve retornar uma coleção de objetos
+	- retornar um array com essa lista de objetos
+
+5. Associação dos Dados
+	- adicionar os dados que serão utilizados no script de testes
+
+6. Informar a execução via Data Driven Test
+	- anotação @Parameters, indica que o método contém os dados que serão utilizados
