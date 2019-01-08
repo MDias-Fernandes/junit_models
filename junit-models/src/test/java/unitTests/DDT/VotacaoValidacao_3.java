@@ -26,14 +26,14 @@ public class VotacaoValidacao_3 {
 	@Parameters(name = "{0} | {1} | {2}")
 	public static Collection<Object[]> data() {
 		return Arrays.asList(new Object [] [] {
-			{"Carina"	, 2004, " voce nao pode votar"},
-			{"Maria"	, 2003, " voce nao pode votar"},
-			{"Rodrigo"	, 2002, " seu voto e facultativo"},
-			{"João"		, 2001, " seu voto e facultativo"},
-			{"Carla"	, 2000, " seu voto e obrigatorio"},
-			{"José"		, 1993, " seu voto e obrigatorio"},
-			{"Ana"		, 1948, " seu voto e obrigatorio"},
-			{"Pedro"	, 1947, " seu voto e facultativo"}
+			{"Carina"	, 2005, " voce nao pode votar"},
+			{"Maria"	, 2004, " voce nao pode votar"},
+			{"Rodrigo"	, 2003, " seu voto e facultativo"},
+			{"João"		, 2002, " seu voto e facultativo"},
+			{"Carla"	, 2001, " seu voto e obrigatorio"},
+			{"João"		, 1994, " seu voto e obrigatorio"},
+			{"Ana"		, 1949, " seu voto e obrigatorio"},
+			{"Pedro"	, 1948, " seu voto e facultativo"}
 		});
 	}
 }

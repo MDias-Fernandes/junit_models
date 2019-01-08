@@ -22,7 +22,7 @@ public class VotacaoValidacao_1 {
 	
 	@Test
 	public void idadeIgual17Anos_VotoFacultativo() {
-		String nome = "Jo√£o";
+		String nome = "Jo„o";
 		int anoDeNascimento = 2001;
 		assertEquals(nome + " seu voto e facultativo", Votacao.podeVotar(nome, anoDeNascimento));
 	}

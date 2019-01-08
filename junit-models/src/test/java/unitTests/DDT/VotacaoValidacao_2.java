@@ -34,11 +34,11 @@ public class VotacaoValidacao_2 {
 			{"Carina"	, 2004, " voce nao pode votar"},
 			{"Maria"	, 2003, " voce nao pode votar"},
 			{"Rodrigo"	, 2002, " seu voto e facultativo"},
-			{"Jo√£o"		, 2001, " seu voto e facultativo"},
+			{"Jo„o"		, 2001, " seu voto e facultativo"},
 			{"Carla"	, 2000, " seu voto e obrigatorio"},
-			{"Jos√©"		, 1993, " seu voto e obrigatorio"},
+			{"Jo„o"		, 1993, " seu voto e obrigatorio"},
 			{"Ana"		, 1948, " seu voto e obrigatorio"},
-			{"Pedro"	, 1947, " seu voto e facultativo"},
+			{"Pedro"	, 1947, " seu voto e facultativo"}
 		});
 	}
 

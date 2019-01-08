@@ -1,0 +1,35 @@
+- Conteúdo Adicional
+
+> Ignorar testes com o @Ignore
+ - Há algum problema com o teste
+ - O teste ainda está em desenvolvimento
+ - Uso da anotação @Ignore, assim o teste não é executado
+ - value pode ser usado para definir o motivo do teste estar sendo ignorado
+ 
+> Definição de tempo máximo de execução de um teste com o parâmetro timeout na tag @Test
+ - Falha automaticamente o teste caso o tempo máximo previsto seja atingido em tempo de execução
+ - Caso tempo limite seja atingido, o JUnit estoura um erro, no caso, TestTimedOutException
+ - Não confundir com testes de performance não funcionais para validação do tempo de resposta
+ - Possível adicioná-las às regras de testes do JUnit
+ 	- Regra aplicável em testes com as tags @Before, @After e @Test (Uso com muita cautela)
+
+> Validação Fluente é a aplicação de uma asserção chamada assertThat (garanta que...) e a utilização de "matchers"
+de uma biblioteca chamada HamCrast já disponível no JUnit. (hamcrest.org/JavaHamcrast/)
+ - assertThat(resultado_obtido, resultado_esperado) //resultado_esperado é o Matcher
+ 	- equalTo = igual a
+ 	- is = é o que esperamos
+ 	- anyOf = o resultado é igual a algum dos itens
+ 	- hasItem = item existe dentro de um array
+ 	
+> Categorização de Testes
+ -  Dividir testes por:
+ 	- Importância
+ 	- Caminho Feliz
+ 	- Mais críticos
+ 	- Suscetíveis a falhas
+ - Consiste na criação de interfaces vazias, onde é colocado o nome da classe de forma bem descritiva
+ - Para utilização, basta adicionar a anotação @Category passando como parâmetro o nome da interface.class
+ - A execução só pode ser feita através de uma suíte de testes
+ 	- @IncludeCategory e @ExcludeCategory
+ - @RunWith deve ser através da classe Categories.class
+>>> Keep Trainning 
